@@ -1,0 +1,309 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: course
+  examples: |
+    - Data Science
+    - Data Analysis
+    - Ful Stack
+    - Digital marketing
+    - Duration of digital marketing course in dehradun
+    
+- intent: jobs1
+  examples: |
+    - What types of jobs are there in ONGC ?
+
+- intent: jobs2
+  examples: |
+    - How can I apply for ONGC ?
+    
+- intent: jobs3
+  examples: |
+    - What is qualification to get a Job on ONGC ?
+
+- intent: jobs4
+  examples: |
+    - How many percentage required to get placed in ongc ?
+    
+- intent: jobs5
+  examples: |
+    - Can I join ONGC without gate ?
+    
+- intent: jobs6
+  examples: |
+    - Does 12th marks matter in ONGC ?
+    
+- intent: jobs7
+  examples: |
+    - Can I get job in ONGC after b tech ?
+    
+- intent: jobs8
+  examples: |
+    - Who gets highest salary in ONGC ?
+ 
+- intent: jobs9
+  examples: |
+    - How can I get Job in ONGC ?
+ 
+
+    
+- intent: geographical1
+  examples: |
+    - Where are oil and gas reserves of ONGC located ?
+    
+- intent: geographical2
+  examples: |
+    - What are the two geographical segments of ONGC ?
+
+- intent: geographical3
+  examples: |
+    -  How many ONGC plants are there in India ?
+
+- intent: geographical4
+  examples: |
+    - How many oil companies are there in India ?
+
+- intent: geographical5
+  examples: |
+    - How many area covered by ongc in India ?
+
+- intent: geographical6
+  examples: |
+    - How many assets does ONGC have ?
+
+
+- intent: address1
+  examples: |
+    - How many ONGC headquaters and office location in INDIA ?
+
+- intent: address2
+  examples: |
+    - Name the ONGC locations in INDIA ?
+    
+- intent: address3
+  examples: |
+    - Where are ONGC in India ?
+    
+- intent: address4
+  examples: |
+    - Where is ONGC headquarters ?
+
+- intent: address5
+  examples: |
+    - How many rigs are in ONGC ?
+    
+- intent: address6
+  examples: |
+    - How many offshore rigs are there in India ?
+    
+- intent: address7
+  examples: |
+    - ONGC offshore locations ?
+    
+- intent: address8
+  examples: |
+    - Which is the largest oil rig in India ?
+    
+- intent: address9
+  examples: |
+    - What is the most common offshore oil platform ?
+    
+
+- intent: address10
+  examples: |
+    - What is ONGC offshore ?
+    
+
+- intent: address11
+  examples: |
+    - Where is the Oil and Natural Gas Commission located ?
+ 
+
+- intent: production1
+  examples: |
+    - Does ONGC produce natural gas ?
+    
+- intent: production2
+  examples: |
+    - Does ONGC import crude oil ?
+    
+- intent: production3
+  examples: |
+    - What does ONGC do with crude oil ?
+    
+- intent: production4
+  examples: |
+    - Does ONGC make oxygen ?
+    
+- intent: production5
+  examples: |
+    - Is ONGC a good buyer ?
+    
+- intent: production6
+  examples: |
+    - Which project has been started by ONGC for deep sea oil exploration ?
+    
+- intent: production7
+  examples: |
+    - Does ONGC have refinery ?
+    
+- intent: production8
+  examples: | 
+    - How many oil well was drilled by ONGC ?
+    
+- intent: production9
+  examples: |
+    - How much oil produce ONGC per day ?
+    
+- intent: production10
+  examples: |
+    - How much does ONGC contributes towards production of India's crude oil ?
+    
+- intent: production11
+  examples: |
+    -What is production of ONGC ?
+    
+- intent: production12
+  examples: |
+    - Why is ONGC stock falling ? 
+    
+- intent: production13
+  examples: |
+    - What are the departments in ONGC ?
+    
+- intent: production14
+  examples: |
+    - Is ONGC upstream or downstream ?
+    
+- intent: production15
+  examples: |
+    - Which state is the largest producer of natural gas in India ?
+    
+- intent: production16
+  examples: |
+    - How does oil and gas industry work ?
+
+- intent: exploration1
+  examples: |
+    - What is Exploration used for in the oil industry ?
+
+
+- intent: exploration2
+  examples: |
+    - What is the meaning of oil and gas exploration ?
+
+- intent: exploration3
+  examples: |
+    - How does oil exploration affect the environment ?
+    
+- intent: exploration4
+  examples: |
+    - How is oil and gas exploration done ?
+    
+- intent: exploration5
+  examples: |
+    - How is science involved in the exploration for oil and natural gas ?
+    
+- intent: refining1
+  examples: |
+    - Which environmental impact is caused by both refining oil and refining natural gas ?
+    
+- intent: refining2
+  examples: |
+    - Which is the richest oil field in India ?
+    
+    
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    
+    
+
+    
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

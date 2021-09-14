@@ -1,0 +1,567 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+
+
+
+
+
+
+
+
+
+#ONGC STORIES
+
+
+- story: jobs1 path
+  steps:
+  - intent: jobs1
+  - action: utter_jobs1
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: jobs2 path
+  steps:
+  - intent: jobs2
+  - action: utter_jobs2
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: jobs3 path
+  steps:
+  - intent: jobs3
+  - action: utter_jobs3
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: jobs4 path
+  steps:
+  - intent: jobs4
+  - action: utter_jobs4
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: jobs5 path
+  steps:
+  - intent: jobs5
+  - action: utter_jobs5
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: jobs6 path
+  steps:
+  - intent: jobs6
+  - action: utter_jobs6
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: jobs7 path
+  steps:
+  - intent: jobs7
+  - action: utter_jobs7
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: jobs8 path
+  steps:
+  - intent: jobs8
+  - action: utter_jobs8
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: jobs9 path
+  steps:
+  - intent: jobs9
+  - action: utter_jobs9
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+  
+
+
+- story: geographical1 path
+  steps:
+  - intent: geographical1
+  - action: utter_geographical1
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: geographical2 path
+  steps:
+  - intent: geographical2
+  - action: utter_geographical2
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: geographical3 path
+  steps:
+  - intent: geographical3
+  - action: utter_geographical3
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+
+- story: geographical4 path
+  steps:
+  - intent: geographical4
+  - action: utter_geographical4
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+
+- story: geographical5 path
+  steps:
+  - intent: geographical5
+  - action: utter_geographical5
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: geographical6 path
+  steps:
+  - intent: geographical6
+  - action: utter_geographical6
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+
+- story: address1 path
+  steps:
+  - intent: address1
+  - action: utter_address1
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: address2 path
+  steps:
+  - intent: address2
+  - action: utter_address2
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: address3 path
+  steps:
+  - intent: address3
+  - action: utter_address3
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: address4 path
+  steps:
+  - intent: address4
+  - action: utter_address4
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: address5 path
+  steps:
+  - intent: address5
+  - action: utter_address5
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: address6 path
+  steps:
+  - intent: address6
+  - action: utter_address6
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: address7 path
+  steps:
+  - intent: address7
+  - action: utter_address7
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: address8 path
+  steps:
+  - intent: address8
+  - action: utter_address8
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: address9 path
+  steps:
+  - intent: address9
+  - action: utter_address9
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+
+- story: address10 path
+  steps:
+  - intent: address10
+  - action: utter_address10
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+
+- story: address11 path
+  steps:
+  - intent: address11
+  - action: utter_address11
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+
+- story: production1 path
+  steps:
+  - intent: production1
+  - action: utter_production1
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production2 path
+  steps:
+  - intent: production2
+  - action: utter_production2
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production3 path
+  steps:
+  - intent: production3
+  - action: utter_production3
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production4 path
+  steps:
+  - intent: production4
+  - action: utter_production4
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production5 path
+  steps:
+  - intent: production5
+  - action: utter_production5
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production6 path
+  steps:
+  - intent: production6
+  - action: utter_production6
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production7 path
+  steps:
+  - intent: production7
+  - action: utter_production7
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production8 path
+  steps:
+  - intent: production8
+  - action: utter_production8
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production9 path
+  steps:
+  - intent: production9
+  - action: utter_production9
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production10 path
+  steps:
+  - intent: production10
+  - action: utter_production10
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production11 path
+  steps:
+  - intent: production11
+  - action: utter_production11
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production12 path
+  steps:
+  - intent: production12
+  - action: utter_production12
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production13 path
+  steps:
+  - intent: production13
+  - action: utter_production13
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+
+
+- story: production14 path
+  steps:
+  - intent: production14
+  - action: utter_production14
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+
+
+- story: production15 path
+  steps:
+  - intent: production15
+  - action: utter_production15
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: production16 path
+  steps:
+  - intent: production16
+  - action: utter_production16
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: exploration1 path
+  steps:
+  - intent: exploration1
+  - action: utter_exploration1
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: exploration2 path
+  steps:
+  - intent: exploration2
+  - action: utter_exploration2
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: exploration3 path
+  steps:
+  - intent: exploration3
+  - action: utter_exploration3
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: exploration4 path
+  steps:
+  - intent: exploration4
+  - action: utter_exploration4
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+  
+- story: exploration5 path
+  steps:
+  - intent: exploration5
+  - action: utter_exploration5
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: refining1 path
+  steps:
+  - intent: refining1
+  - action: utter_refining1
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+- story: refining2 path
+  steps:
+  - intent: refining2
+  - action: utter_refining2
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_helpyes
+  - intent: deny
+  - action: utter_question
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

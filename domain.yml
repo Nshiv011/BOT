@@ -1,0 +1,195 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_course:
+  - text: "Courses in Brillica Services: Data Science, Data Analysis, Digital Marketing"
+  
+  utter_jobs:
+  - text: ""
+  
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_helpyes:
+  - text: "Thankyou so much for your valuable feedback"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_question:
+  - text: "Please ask more question to know us better!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+
+  utter_jobs1:
+  - text: "Multiple career streams available to you in ONGC are:     Business Development, Corporate Planning, Corporate Affairs, Marketing, Corparate Communication, Corparate social responsibility, Materials Management, Civil, Exploration & Production, Finance, Human Resource, Legal, Operation & Maintenance, IT & Information Security, Electronics & Communication, Petrochemical, Projects, Onshore/Offshore Engineering Services,     Research & Development at our 12 world class Institutes, Security"
+
+  utter_jobs2:
+  - text: "The Apply now node is open for receiving application from Startups from Energy Sector / domain for Tenth Round of selection under ONGC Start-Up Initiative."
+
+  utter_jobs3:
+  - text: "Graduate Degree in Engineering"
+
+  utter_jobs4:
+  - text: "Candidates need to score minimum 60% marks in the undergraduate engineering programmes, to be eligible to apply for the recruitmen"
+
+  utter_jobs5:
+  - text: "ONGC jobs are available randomly, whenever there is a vacancy. The company also takes up campus recruitment process for entry level positions from various leading colleges. Candidates can apply through their CAT and GATE score too, for certain positions."
+
+  utter_jobs6:
+  - text: "Candidate should have obtained minimum 60% marks or equivalent CGPA/OGPA in 12th class for Engineering and MBBS disciplines. Similarly 60% marks (average marks of all the years) or equivalent CGPA/OGPA are necessary in graduation for P.G. Courses i.e. Geology/Geophysics/MBA."
+
+  utter_jobs7:
+  - text: "Candidates need to score minimum 60% marks in the undergraduate engineering programmes, to be eligible to apply for the recruitment. ... Candidates in the final year of B.E or B. Tech are also eligible to apply"
+
+  utter_jobs8:
+  - text: "executive director - ₹40lakhs per year"
+
+  utter_jobs9:
+  - text: " Candidates must be Indian Nationals, Candidates need to score minimum 60% marks in the undergraduate engineering programmes, to be eligible to apply for the recruitment, The detailed eligibility for each discipline is given in the table below for candidates to check their eligibility as per their chosen discipline, Candidates in the final year of B.E or B.Tech are also eligible to apply. If they are shortlisted, then their candidature will be provisional. They will have to produce the requisite documents by last week of July 2020 as proof that they have met the requisite percentage of marks, Candidates who have obtained the undergraduate degree from distance learning/ part time mode will be eligible to apply provided their degree is recognized by the relevant statutory bodies for employment to posts and services of the Central Government."
+
+  utter_geographical1:
+  - text: "The Company's subsidiaries include ONGC Videsh Limited (OVL), Mangalore Refinery and Petrochemicals Limited (MRPL) and ONGC Mangalore Petrochemicals Limited. The Company's oil and gas reserves are located internationally at Russia, Colombia, Vietnam, Brazil"
+
+  utter_geographical2:
+  - text: "The Company's geographical segments include operations in two categories: In India, which includes Onshore and Offshore, and Outside India."
+
+  utter_geographical3:
+  - text: "The company's domestic operations are structured around 11 assets (predominantly oil and gas producing properties), 7 basins (exploratory properties), 2 plants (at Hazira and Uran) and services (for necessary inputs and support such as drilling, geo-physical, logging and well services)."
+
+  utter_geographical4:
+  - text: "India has 18 public sector refineries and five refineries in the private sector/or as a joint venture, the largest refineries being RIL Jamnagar (Gujarat), NEL Vadinar (Gujarat) and IOC Panipat (Haryana)."
+
+  utter_geographical5:
+  - text: "ONGC was founded on 14 August 1956 by Government of India. It is involved in exploring for and exploiting hydrocarbons in 26 sedimentary basins of India, and owns and operates over 11,000 kilometers of pipelines in the country"
+
+  utter_geographical6:
+  - text: " ONGC Videsh has oil and gas production from 14 Assets, 4 Assets where hydrocarbons have been discovered and are at various stages of development, 14 Assets are under various stages of Exploration and 3 projects are pipeline projects"
+
+  utter_address1:
+  - text: "All over 21 ONGC locations are in INDIA"
+
+  utter_address2:
+  - text: "New Delhi HQ Jeevan Bharti Connaught Ln,Ahmedabad Avani Bhawan Gujarat State Highway 41 Mahavirnagar Nigam NagarBhubaneswar Plot no 1 and 2nd floor Block B Bhawani Complex Saheed Nagar, Bokaro 1st Floor, HSCL Building Bokaro Steel City Bokaro 827001,Canaguinim Quitol Rd, Chennai Thalamuthu Natrajan Building,Cmda Tower 1, Gandhi Irwin Road, Egmore, Dehradun IDT Campus, Kaulagarh Rd, ONGC, Jodhpur KDM Complex, Mandore Rd, Nayapura, Kakinada NH 214, Near Bhanugudi Jn, Police Quarters, Mumbai 4th Floor,Q4, ONGC, NBP Green Heights, Plot no. C 69, BKC, Bandra (East)," 
+
+  utter_address3:
+  - text: "ONGC, Godavari Bhavan, Base Complex, Rajahmundry-533 106, East Godavari District (A.P.) ONGC, Godavari Bhavan, Base Complex, Rajahmundry-533 106, East Godavari District (A.P.)"
+
+  utter_address4:
+  - text: "Vasant Kunj, New Delhi"
+
+  utter_address5:
+  - text: "ONGC operates some 105 drilling and 74 work over rigs. It is among the few companies in the world to have drilled 127 deepwater wells in diverse and challenging areas, establishing itself as one of the leading oil drilling companies in India"
+
+  utter_address6:
+  - text: "Of the 44 rigs contracted for work offshore India, 34, or more than 77% of the rigs contracted, are jackups. Seven are drillships, and three are semisubmersible rigs. All of these rigs are currently performing drilling operations"
+
+  utter_address7:
+  - text: "Oil and Natural Gas Corporation (ONGC) has found oil and gas in four locations in offshore Mumbai, Assam and Krishna Godavari basin. ONGC has found leads in upper Assam basin, onland KG basin, Mumbai offshore and shallow waters of the Andhra coast, official sources said here"
+
+  utter_address8:
+  - text: "The Mumbai High Field, formerly called the Bombay High Field, is an offshore oilfield 176 km off the west coast of Mumbai, in Gulf of Cambay region of India, in about 75 m of water."
+
+  utter_address9:
+  - text: "A semi-submersible is the most common type of offshore drilling rig, used for drilling in waters more than 300 feet (90 meters) deep. Semi-submersibles are floating vessels supported on large pontoon-like structures submerged below the sea surface"
+
+  utter_address10:
+  - text: "ONGC went offshore in early 70's and discovered a giant oil field in the form of Bombay High, now known as Mumbai High. ... The most important contribution of ONGC, however, is its self-reliance and development of core competence in E&P activities at a globally competitive level"
+
+  utter_address11:
+  - text: "Its headquarters are located in Dehradun. This was incorporated in the year 1959"
+
+  utter_production1:
+  - text: "ONGC Represents India's Energy Security Through its Pioneering Efforts. Maharatna ONGC is the largest crude oil and natural gas Company in India, contributing around 71 per cent to Indian domestic production"
+
+  utter_production2:
+  - text: "As a result import dependency is increasing. ONGC produced 20.2 million tonnes of crude oil in the fiscal year ending March 31 (2020-21), down from 20.6 million tonnes in the previous year and 21.1 million tonnes in 2018-19"
+
+  utter_production3:
+  - text: "ONGC supplies crude oil, natural gas, and value-added products to major Indian oil and gas refining and marketing companies. Its primary products crude oil and natural gas are for the Indian market"
+
+  utter_production4:
+  - text: "ONGC has been given the responsibility to procure one lakh oxygen concentrators based on its understanding of global supply chain and logistics. Government of India will bear the cost of procuring these concentrators,” the state-run company said"
+
+  utter_production5:
+  - text: "PE vs Industry: ONGC is good value based on its PE Ratio (9.1x) compared to the Indian Oil and Gas industry average (17x). PE vs Market: ONGC is good value based on its PE Ratio (9.1x) compared to the Indian market (22.6x)."
+
+  utter_production6:
+  - text: "Project ICE Since 2004, ONGC has drilled over 100 deepwater wells"
+
+  utter_production7:
+  - text: "ONGC Mangalore Petrochemicals Limited ONGC Mangalore Petrochemicals Limited (OMPL) is an Indian company promoted by Oil and Natural Gas Corporation (ONGC) and Mangalore Refinery and Petrochemicals Limited (MRPL). ... The complex is connected with MRPL Refinery, from where they feed to the complex is supplied"
+
+  utter_production8:
+  - text: "ONGC operates some 105 drilling and 74 work over rigs. It is among the few companies in the world to have drilled 127 deepwater wells in diverse and challenging areas, establishing itself as one of the leading oil drilling companies in India"
+
+  utter_production9:
+  - text: "1.26 million ONGC produces over 1.26 million barrels of oil equivalent per day, contributing around 71% of India's domestic production"
+
+  utter_production10:
+  - text: "(OVL) is the biggest Indian multinational, with 37 Oil & Gas assets in 17 countries. ONGC produces over 1.26 million barrels of oil equivalent per day, contributing around 71% of India's domestic production"
+
+  utter_production11:
+  - text: "The main functions of the Oil and Natural Gas Commission subject to the provisions of the Act, were 'to plan, promote, organize and implement programmes for development of Petroleum Resources and the production and sale of petroleum and petroleum products produced by it, and to perform such other functions' "
+
+  utter_production12:
+  - text: "There are broadly 3 reasons for the fall in the ONGC prices. ... ONGC is an upstream company and its profit depends on the crude oil prices. However, due to weakness in global growth, tepid industrial growth in China and the ongoing trade war between the US and China have dampened the spirits of the stock."
+
+  utter_production13:
+  - text: "Corporate Sustainability. Sustainable Development is the overarching working template in ONGC, Environment. Ensuring Green development, Health And Safety. ONGC promotes a Health & Safety, carbon management, sustainability reports, clean development mechanism, "
+
+  utter_production14:
+  - text: "Upstream companies such as ONGC and Oil India offer better risk-reward ratio compared with downstream companies such as BPCL, HPCL and IOC due to superior volume visibility and attractive valuations. ONGC has guided for strong production in gas, as new projects start by the end of 2017"
+
+  utter_production15:
+  - text: "Assam is the highest gas producing state with production of 8.3 MMSMCD"
+
+  utter_production16:
+  - text: "The oil & gas industry is broken down into three segments: upstream, midstream, and downstream. Upstream, or exploration and production (E&P) companies, find reservoirs and drill oil and gas wells. ... Drilling companies contract their services to E&P companies to extract oil and gas"
+
+  utter_exploration1:
+  - text: "The upstream segment of the oil and gas industry contains exploration activities, which include creating geological surveys and obtaining land rights, and production activities, which include onshore and offshore drilling"
+
+  utter_exploration2:
+  - text: "Hydrocarbon exploration (or oil and gas exploration) is the search by petroleum geologists and geophysicists for deposits of hydrocarbons, particularly petroleum and natural gas, in the Earth using petroleum geology"
+
+  utter_exploration3:
+  - text: "Exploring and drilling for oil may disturb land and marine ecosystems. Seismic techniques used to explore for oil under the ocean floor may harm fish and marine mammals. Drilling an oil well on land often requires clearing an area of vegetation"
+
+  utter_exploration4:
+  - text: "Exploration involves the search for rock formations associated with oil or natural gas deposits, and involves geophysical prospecting and/or exploratory drilling. ... Oil is nearly always processed at a refinery; natural gas may be processed to remove impurities either in the field or at a natural gas processing plant"
+
+  utter_exploration5:
+  - text: "Oil and natural gas may be under layers of rock or under the ocean floor. ... How is science involved in the exploration for oil and natural gas? (The oil and natural gas are buried under layers so this requires an understanding of geology. Also, tools must be built to recover this oil and natural gas."
+
+  utter_refining1:
+  - text: "Refining petroleum creates air pollution. Transforming crude oil into petrochemicals releases toxins into the atmosphere that are dangerous for human and ecosystem health"
+
+  utter_refining2:
+  - text: "The largest oil field of India is Bombay high. It is situated about 161 km north of Bombay coast in Mumbai, Maharashtra"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
